@@ -1,0 +1,1 @@
+import{r as e}from"./auth-bgkSYldb.js";var t={list(t=0,n=20){return e.get(`/workspaces/current/audit-log`,{params:{page:t,size:n}})},get(t){return e.get(`/workspaces/current/audit-log/${t}`)}};export{t};

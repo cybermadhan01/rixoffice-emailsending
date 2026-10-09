@@ -1,0 +1,1 @@
+import{r as e}from"./auth-bgkSYldb.js";var t={list(t=0,n=20){return e.get(`/workspaces/current/webhooks`,{params:{page:t,size:n}})},create(t){return e.post(`/workspaces/current/webhooks`,t)},delete(t){return e.delete(`/workspaces/current/webhooks/${t}`)}},n={list(t=0,n=20){return e.get(`/workspaces/current/webhook-deliveries`,{params:{page:t,size:n}})}};export{t as n,n as t};

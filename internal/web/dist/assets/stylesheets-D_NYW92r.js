@@ -1,0 +1,1 @@
+import{r as e}from"./auth-bgkSYldb.js";var t={list(t=0,n=100){return e.get(`/workspaces/current/stylesheets`,{params:{page:t,size:n}})},create(t){return e.post(`/workspaces/current/stylesheets`,t)},update(t,n){return e.put(`/workspaces/current/stylesheets/${t}`,n)},delete(t){return e.delete(`/workspaces/current/stylesheets/${t}`)}};export{t};

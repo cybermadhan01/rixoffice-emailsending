@@ -253,7 +253,7 @@ func New() *Config {
 		logger.Debug("no .env file found, using environment variables")
 	}
 	// Resolved first so the worker's probe listener can default to it.
-	port := goutils.EnvInt("POSTA_PORT", 9000)
+	port := goutils.EnvInt("POSTA_PORT", goutils.EnvInt("PORT", 9000))
 
 	return &Config{
 		Database: DatabaseConfig{

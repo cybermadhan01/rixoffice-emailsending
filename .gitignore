@@ -3,8 +3,7 @@ bin/
 .history
 .DS_Store
 
-# Embedded dashboard: the built assets are a `make build-ui` artifact baked into
-# the binary by //go:embed, not source. Only the placeholder is committed so
-# `go build` works on a clean checkout.
-/internal/web/dist/*
-!/internal/web/dist/.gitkeep
+# Embedded dashboard: pre-built for deployment
+# /internal/web/dist/*
+# !/internal/web/dist/.gitkeep
+

@@ -1,0 +1,1 @@
+import{r as e}from"./auth-bgkSYldb.js";var t={list(t=0,n=20,r=``,i=``){return e.get(`/workspaces/current/emails`,{params:{page:t,size:n,q:r||void 0,sort:i||void 0}})},get(t){return e.get(`/workspaces/current/emails/${t}`)},retry(t){return e.post(`/workspaces/current/emails/${t}/retry`)},preview(t){return e.post(`/workspaces/current/emails/preview`,t)}};export{t};

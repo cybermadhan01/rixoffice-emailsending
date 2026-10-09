@@ -1,0 +1,1 @@
+import{r as e}from"./auth-bgkSYldb.js";var t={get:()=>e.get(`/info`)};export{t};
